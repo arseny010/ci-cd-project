@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "demo" {
   tags = {
     Project     = "ci-cd-project"
     Environment = "dev"
-    Owner       = "arseny"
+    Owner       = "arseny avseenko"
   }
 }
 
